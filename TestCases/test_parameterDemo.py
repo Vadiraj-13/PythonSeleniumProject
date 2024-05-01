@@ -14,3 +14,6 @@ def val(request):
 
 def test_val(val):
     assert val == 'www.google.com'
+
+def test_val(val):
+    assert val == 'https://www.youtube.com/'
